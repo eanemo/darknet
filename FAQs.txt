@@ -1,2 +1,11 @@
 # FAQs
 https://github.com/AlexeyAB/darknet/wiki/FAQ---frequently-asked-questions
+
+
+# Modificaciones explicadas
+* classes se cambia a 55
+    - classes=55
+    - filters=(classes + 5) * 3 = (55+5)*3=180
+* Cambios para objetos pequeños
+    - Stride a 4
+    - layers de 54 a 23
