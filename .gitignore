@@ -9,6 +9,9 @@
 *.dll
 *.lib
 *.dylib
+*.vcxproj
+*.filters
+*.sln
 mnist/
 data/
 caffe/
